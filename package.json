@@ -1,0 +1,22 @@
+{
+  "name": "gitpush",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "vite": "^5.4.7"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  }
+}
